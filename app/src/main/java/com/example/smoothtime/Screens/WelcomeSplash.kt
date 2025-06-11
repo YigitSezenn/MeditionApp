@@ -37,7 +37,7 @@ fun WelcomeSplash(
     ) {
 
         Image(
-            painter = painterResource(id = R.drawable.image3),
+            painter = painterResource(id = R.drawable.image2),
             contentDescription = "Welcome Splash",
 
             modifier = Modifier.size(450.dp)
