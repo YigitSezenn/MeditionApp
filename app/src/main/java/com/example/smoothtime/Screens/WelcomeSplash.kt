@@ -35,7 +35,7 @@ fun WelcomeSplash(
     ) {
 
         Image(
-            painter = painterResource(id = R.drawable.image2),
+            painter = painterResource(id = R.drawable.image1),
             contentDescription = "Welcome Splash",
             modifier = Modifier.fillMaxSize()
                 .aspectRatio(1f)
