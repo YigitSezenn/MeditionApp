@@ -9,6 +9,8 @@ import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.material3.Button
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -35,12 +37,14 @@ fun WelcomeSplash(
     ) {
 
         Image(
-            painter = painterResource(id = R.drawable.image2),
+            painter = painterResource(id = R.drawable.image3),
             contentDescription = "Welcome Splash",
-            modifier = Modifier.fillMaxSize()
-                .aspectRatio(1f)
+
+            modifier = Modifier.size(450.dp)
         )
-        Spacer(modifier = Modifier.padding(32.dp))
+        Spacer(modifier = Modifier.padding(16.dp))
+
+
 
 
     }
