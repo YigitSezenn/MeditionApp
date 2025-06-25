@@ -1,13 +1,12 @@
 package com.example.smoothtime.NavHost
 
-import androidx.compose.runtime.Composable
+ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.navigation.NavController
-import androidx.navigation.NavHost
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.smoothtime.Screens.RegisterScreen
+import com.example.smoothtime.Screens.SplashScreen
 import com.example.smoothtime.Screens.WelcomeSplash
 
 @Composable
@@ -24,8 +23,13 @@ fun AppNavHost(
         composable(NavigationItem.WelcomeSplash.route) {
             WelcomeSplash(navController = navController)
         }
+        composable(NavigationItem.SplashScreen.route) {
+            SplashScreen(navController = navController)
+            // Uncomment the above line when you implement the RegisterScreen composable
+        }
         composable(NavigationItem.RegisterScreen.route) {
-            RegisterScreen(navController = navController)
+            RegisterScreen( navController = navController)
+            // RegisterScreen(navController = navController)
             // Uncomment the above line when you implement the RegisterScreen composable
         }
             // RegisterScreen(navController = navController)
