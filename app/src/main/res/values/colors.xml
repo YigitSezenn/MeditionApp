@@ -8,8 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <!-- Meditasyon teması için ek renkler -->
-    <color name="meditation_light_green">#E8F5E9</color> <!-- Arka plan -->
-    <color name="meditation_main_green">#4CAF50</color>  <!-- Buton, ikon, vurgu -->
-    <color name="meditation_dark_green">#388E3C</color>  <!-- Daha koyu yeşil ton -->
-    <color name="meditation_text_gray">#37474F</color>   <!-- Yazı rengi -->
+    <color name="meditation_main_green">#4CAF50</color>
+    <color name="meditation_light_green">#E8F5E9</color>
+    <color name="meditation_text_gray">#9E9E9E</color>
+  <!-- Yazı rengi -->
+    <color name="meditation_background">#FFFFFF</color>
 </resources>
